@@ -39,8 +39,7 @@ namespace OWASP.WebGoat.NET
 	        {
 	            case MembershipCreateStatus.Success:
 	                CreateAccountResults.Text = "The user account was successfully created!";
-	                break;
-	
+
 	            case MembershipCreateStatus.DuplicateUserName:
 	                CreateAccountResults.Text = "There already exists a user with this username.";
 	                break;
