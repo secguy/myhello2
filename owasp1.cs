@@ -19,7 +19,7 @@ namespace OWASP.WebGoat.NET
 	    protected void Page_Load(object sender, EventArgs e)
 	    {
 	        if (!Page.IsPostBack)
-	            SecurityQuestion.Text = passwordQuestion;
+	            SecurityQuestion.Text = passwordQuestion;//nother comment.
 	    }
 
 	    protected void CreateAccountButton_Click(object sender, EventArgs e)
