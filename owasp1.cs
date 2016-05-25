@@ -29,6 +29,7 @@ namespace OWASP.WebGoat.NET
 	    //commit 5
 	    //commit 6
 	    //commit 7
+	    //commit 8
 	        MembershipCreateStatus createStatus;
 	
 	        MembershipUser newUser = 
